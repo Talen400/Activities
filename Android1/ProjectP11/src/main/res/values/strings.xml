@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjectP11</string>
+    <string name="LDR">LDR:</string>
+    <string name="Valor">Valor</string>
+    <string name="LM35">LM35:</string>
+    <string name="Distancia">Distancia:</string>
+    <string name="Velocidade">Velocidade:</string>
+</resources>

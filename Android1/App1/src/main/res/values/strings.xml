@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App1</string>
+    <string name="Botao1">Botao1</string>
+    <string name="Botao2">Botao2</string>
+    <string name="Nada"></string>
+    <string name="nomeStudent">Ricardo Henrique Lavareda Pinto</string>
+    <string name="telefoneStudent">(92) 98116-8777</string>
+    <string name="EnderecoStudent">Rua acauan 123</string>
+    <string name="siteStudent">ricardo.com.br</string>
+    <string name="notaStudant">nota: 0</string>
+</resources>
