@@ -143,3 +143,37 @@ def stardard_deviation(x):
     float: The standard deviation of wthe numbers in the list.
     """
     return math.sqrt(variance(x))
+
+def covarience(x, y):
+    """
+    Calculates the varience between two values
+    
+    Parameters:
+    x (list of float): The first list of numbers.
+    y (list of float): The second list of numbers.
+
+    Returns:
+    float: The covarience
+    """
+    n = len(x)
+    return dot(de_mean(x), de_mean(y))/(n-1)
+
+def correlation(x, y):
+    """
+    Correlation divides two standard deviations of two values
+
+    parameters:
+    x (list of float): The first list of numbers
+    y (list of float): The second list of numbers
+
+    return:
+    Covariance or zero, if no amplitude
+    """
+
+    stdev_x = stardard_deviation(x)
+    stdev_y = stardard_deviation(y)
+
+    if stdev_x > 0 and stdev_y > 0 :
+        return covarience(x, y)/stdev_x/stdev_y
+    else:
+        return 0
